@@ -2,7 +2,7 @@
 tags:
   - draft
 ---
-Originally a field of study to allow machines to independently make human-like decisions. Recently a fast-moving hype topic.
+Originally a field of study to allow machines to independently make human-like decisions. Recently a fast-moving hype topic, especially due to the success of [[Large Language Model]]s.
 
 ## Compared and contrasted
 to [[Machine Learning]]: A subfield of AI researching how to improve performance on a task automatically with new inputs, without human intervention.
