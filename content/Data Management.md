@@ -1,3 +1,8 @@
+---
+tags:
+  - stub
+---
+- [[FAIR Data Principles]]
 # Spreadsheets
 - Tipps on how to organize data well in spreadsheets [^1]
 
