@@ -35,7 +35,12 @@ The original RAG architecture by Lewis et al.[^1] combines a retriever (pre-trai
 
 **vector embedding**: Numeric representations of content used for vector similarity search.
 
-## Sources
+# Alternatives
+- [[Knowledge-Augmented Generation]], using [[Knowledge Graphs]] for information storage and retrieval.
+- [[Cache-Augmented Generation]], using the increasingly large context windows of LLMs to preload all context.
+- [[Model Context Protocol (MCP)]], accessing external data sources by calling tools instead of loading them into context.
+
+# Sources
 - https://learn.microsoft.com/en-us/azure/foundry/concepts/retrieval-augmented-generation
 - https://en.wikipedia.org/wiki/Retrieval-augmented_generation
 - Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., ... & Kiela, D. (2020). Retrieval-augmented generation for knowledge-intensive nlp tasks. _Advances in neural information processing systems_, _33_, 9459-9474.
