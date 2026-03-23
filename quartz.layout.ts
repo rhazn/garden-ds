@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import GardenDisclaimer from "./src/components/GardenDisclaimer"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -8,8 +9,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "My personal homepage": "https://www.heltweg.org/",
+      "Work with me": "https://www.isselthal.industries/",
     },
   }),
 }
@@ -17,6 +18,7 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
+    GardenDisclaimer(),
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
