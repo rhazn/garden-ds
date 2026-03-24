@@ -38,6 +38,7 @@ The original RAG architecture by Lewis et al.[^1] combines a retriever (pre-trai
 # Alternatives
 - [[Knowledge-Augmented Generation]], using [[Knowledge Graphs]] for information storage and retrieval.
 - [[Cache-Augmented Generation]], using the increasingly large context windows of LLMs to preload all context.
+- [[In-Context Learning]], providing examples directly in the model prompt.
 - [[Model Context Protocol (MCP)]], accessing external data sources by calling tools instead of loading them into context.
 
 # Sources
