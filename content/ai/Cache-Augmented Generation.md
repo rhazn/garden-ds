@@ -4,7 +4,7 @@ tags:
 ---
 Cache-Augmented Generation (CAG) is an alternative to [[Retrieval-Augmented Generation]] to provide additional context to [[Large Language Model]]s.
 
-For CAG the entire knowledge base is pre-processes into a context cache, then this cached context is combined with the user query during inference.
+For CAG the entire knowledge base is pre-processed into a context cache, then this cached context is combined with the user query during inference.
 
 Upside of CAG include being faster at inference time, making all context available (RAG systems might struggle with finding all relevant documents) and having a more simple architecture. However, CAG systems are limited by the size of the knowledge base they can handle and LLM inference speed still degrades with longer prompts. Of note: The original paper[^1] was written with 32k-64k context windows in mind, way smaller than modern long-context LLMs.
 
